@@ -1,0 +1,12 @@
+use_frameworks!
+platform :ios,'8.0'
+
+target 'PWFNotification_Example' do
+  pod 'PWFNotification', :path => '../'
+
+  target 'PWFNotification_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
