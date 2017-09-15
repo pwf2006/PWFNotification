@@ -1,7 +1,7 @@
 # PWFNotification
 Because of the crash in using of Apple's NSNotification without removing the observer in dealloc,I develop the PWFNotification.You no need to remove observer for using PWFNotification.
 
-###Usage
+### Usage   
 Anyone who wants to use `PWFNotification` can use:
     
     pod 'PWFNotification'
@@ -28,10 +28,10 @@ If you don't do this, the `PWFNotification` will be posted in the current thread
 
 When the App that uses the `PWFNotification` receives the memory warning, the `PWFNotificationCenter` will elimate the invalid observers.
    
-###Support
+### Support
 Any issue in using `PWFNotification`, you can send email to 674423263@qq.com.
 
-###Licence
+### Licence
 `PWFNotification` is released under the MIT license. See LICENSE for details.
 
 
