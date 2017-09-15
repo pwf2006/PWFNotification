@@ -1,5 +1,5 @@
 # PWFNotification
-Because of the crash in using of Apple's NSNotification without removing the observer in 'dealloc' function, I develop the `PWFNotification`.You no need to remove observer for using `PWFNotification`.
+Because of the crash in using of Apple's NSNotification without removing the observer in 'dealloc' function, I develop the `PWFNotification`.There is no need to remove observer for using `PWFNotification`.
 
 ### Usage   
 Anyone who wants to use `PWFNotification` can use:
